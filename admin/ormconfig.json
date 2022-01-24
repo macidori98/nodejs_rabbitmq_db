@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "admin_product",
+  "entities": ["src/entity/*.js"],
+  "logging": false,
+  "synchronize": true,
+  "cli": { "entitiesDir": "src/entity" }
+}
