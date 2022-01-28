@@ -10,7 +10,7 @@ createConnection()
     const productRepository = db.getMongoRepository(Product);
 
     amqplib.connect(
-      "amqps://xvholbwb:Ct0aABJnd52M1RFzXgnQf6MH0xjsNsiA@roedeer.rmq.cloudamqp.com/xvholbwb",
+      "rabbitmq link",
       (error0, connection) => {
         if (error0) {
           throw error0;
